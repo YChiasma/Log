@@ -1,3 +1,7 @@
+4:42 PM 4/10/2026
+
+Get pinned entries to work
+
 4:38 PM 4/10/2026
 
 Move Pin and Edit into a menu
