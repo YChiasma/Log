@@ -1,11 +1,3 @@
-4:18 PM 4/13/2026
-
-Add secret token (secrets.GH_PAGES_TOKEN ) for "Copy Log to GitHub Pages Repo"
-
-2:46 PM 4/12/2026
-
-Setup automatic updates to github pages workflow
-
 4:38 PM 4/10/2026
 
 Move Pin and Edit into a menu
