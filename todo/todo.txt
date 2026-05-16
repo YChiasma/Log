@@ -1,6 +1,18 @@
-3:22 PM 5/14/2026
+5:26 PM 5/15/2026
 
-Test JSON Export and update log stable
+Implement user links with unique (editable?) usernames per log, distinct from admin links (current default behavior)
+
+5:25 PM 5/15/2026
+
+Add export to txt file
+
+5:25 PM 5/15/2026
+
+Add import function
+
+5:25 PM 5/15/2026
+
+Create read-only links
 
 4:38 PM 4/10/2026
 
