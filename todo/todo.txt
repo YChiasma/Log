@@ -1,10 +1,10 @@
+5:19 PM 5/18/2026
+
+Find out why Export JSON isn't working
+
 5:26 PM 5/15/2026
 
 Implement user links with unique (editable?) usernames per log, distinct from admin links (current default behavior)
-
-5:25 PM 5/15/2026
-
-Add export to txt file
 
 5:25 PM 5/15/2026
 
