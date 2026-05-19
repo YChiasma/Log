@@ -1,6 +1,6 @@
-5:19 PM 5/18/2026
+5:25 PM 5/18/2026
 
-Find out why Export JSON isn't working
+Make Export JSON much more efficient by checking if an entry has been edited before downloading versions
 
 5:26 PM 5/15/2026
 
