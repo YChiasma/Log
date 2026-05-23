@@ -1,4 +1,17 @@
 DONE
+4:33 PM 5/23/2026
+
+ADDED
+10:02 PM 5/20/2026
+
+Test more efficient export to JSON function and mark done
+
+ADDED
+5:25 PM 5/18/2026
+
+Make Export JSON much more efficient by checking if an entry has been edited before downloading versions
+
+DONE
 5:26 PM 5/18/2026
 
 ADDED

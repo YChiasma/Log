@@ -2,14 +2,6 @@
 
 Update rules to enable images
 
-10:02 PM 5/20/2026
-
-Test more efficient export to JSON function and mark done
-
-5:25 PM 5/18/2026
-
-Make Export JSON much more efficient by checking if an entry has been edited before downloading versions
-
 5:26 PM 5/15/2026
 
 Implement user links with unique (editable?) usernames per log, distinct from admin links (current default behavior)
