@@ -1,3 +1,7 @@
+8:57 PM 5/27/2026
+
+Rollback changes for drag and drop images
+
 11:20 PM 5/22/2026
 
 Update rules to enable images
