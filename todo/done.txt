@@ -1,3 +1,21 @@
+CANCELED
+5:03 PM 5/28/2026
+
+This would require changing to paid tier
+
+ADDED
+11:20 PM 5/22/2026
+
+Update rules to enable images
+
+DONE
+5:03 PM 5/28/2026
+
+ADDED
+8:57 PM 5/27/2026
+
+Rollback changes for drag and drop images
+
 DONE
 4:33 PM 5/23/2026
 
