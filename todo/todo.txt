@@ -1,6 +1,14 @@
-8:35 AM 5/30/2026
+9:35 PM 6/3/2026
 
-Add an "add checkbox" button
+Make a page that keeps a list of logs created in local storage instead of immediately redirecting to a newly created log
+
+9:35 PM 6/3/2026
+
+Add delete button for entries (and logs?)
+
+4:09 PM 6/1/2026
+
+Use branches instead of separate folder for log-dev (? unless it makes the workflow less efficient. in that case change it back/keep folders separate.)
 
 8:35 AM 5/30/2026
 
