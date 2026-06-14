@@ -1,3 +1,7 @@
+5:28 PM 6/10/2026
+
+Crop Screenshot so it looks good on https://ychiasma.github.io/
+
 9:35 PM 6/3/2026
 
 Make a page that keeps a list of logs created in local storage instead of immediately redirecting to a newly created log
