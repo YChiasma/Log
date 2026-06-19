@@ -1,6 +1,6 @@
-5:28 PM 6/10/2026
+4:27 PM 6/17/2026
 
-Crop Screenshot so it looks good on https://ychiasma.github.io/
+Add option to log all pageloads timestamped
 
 9:35 PM 6/3/2026
 
