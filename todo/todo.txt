@@ -1,3 +1,11 @@
+9:30 PM 6/25/2026
+
+Make default log + (Create New Log) just adds a link as an entry
+
+9:30 PM 6/25/2026
+
+Make ?log= link
+
 4:27 PM 6/17/2026
 
 Add option to log all pageloads timestamped
