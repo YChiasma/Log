@@ -1,4 +1,12 @@
 DONE
+5:09 PM 6/29/2026
+
+ADDED
+7:32 PM 6/28/2026
+
+Make URL regex apply to all URLs
+
+DONE
 7:32 PM 6/28/2026
 
 ADDED
