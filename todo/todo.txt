@@ -1,3 +1,11 @@
+4:49 PM 7/2/2026
+
+Add Recently Visited Logs list 
+
+4:49 PM 7/2/2026
+
+Add "Set As Default" feature: Allows you to set your default log
+
 9:30 PM 6/25/2026
 
 Make default log + (Create New Log) just adds a link as an entry

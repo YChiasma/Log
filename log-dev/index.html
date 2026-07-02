@@ -545,6 +545,7 @@ function renderLine(line) {
     const params = new URLSearchParams(location.search);
     let logId = params.get("log");
     if (!logId) {
+      // TODO : Check for defaultLog and redirect
       // Show create new log link
       document.getElementById("listPage").style.display = "unset";
       document.getElementById("logPage").style.display = "none";
@@ -554,6 +555,10 @@ function renderLine(line) {
     if(createNewLog) {
       logId = crypto.randomUUID();
       window.location = `?log=${logId}`;
+    }
+
+    if(null === localStorage.getItem("defaultLog")) {
+      localStorage.setItem("defaultLog", logId);
     }
 
     const createNewLogButton = document.getElementById("createNewLog");
