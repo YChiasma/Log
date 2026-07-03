@@ -545,7 +545,14 @@ function renderLine(line) {
     const params = new URLSearchParams(location.search);
     let logId = params.get("log");
     if (!logId) {
-      // TODO : Check for defaultLog and redirect
+
+      if(null !== localStorage.getItem("defaultLog")) {
+        logId = localStorage.setItem("defaultLog");
+        window.location = `?log=${logId}`;
+      } else {
+        history.pushState({}, "", "?createNewLog=1");
+      }
+
       // Show create new log link
       document.getElementById("listPage").style.display = "unset";
       document.getElementById("logPage").style.display = "none";
