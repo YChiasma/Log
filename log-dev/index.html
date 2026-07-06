@@ -546,8 +546,9 @@ function renderLine(line) {
     let logId = params.get("log");
     if (!logId) {
 
-      if(null !== localStorage.getItem("defaultLog")) {
-        logId = localStorage.setItem("defaultLog");
+      let defaultLog = localStorage.getItem("defaultLog");
+      if("null" != defaultLog  && null !== defaultLog) {
+        localStorage.setItem("defaultLog", logId);
         window.location = `?log=${logId}`;
       } else {
         history.pushState({}, "", "?createNewLog=1");
