@@ -555,10 +555,6 @@ function renderLine(line) {
       } else {
         history.pushState({}, "", "?createNewLog=1");
       }
-
-      // Show create new log link
-      document.getElementById("listPage").style.display = "unset";
-      document.getElementById("logPage").style.display = "none";
     }
 
     let createNewLog = params.get("createNewLog");
