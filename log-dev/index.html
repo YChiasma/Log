@@ -544,11 +544,13 @@ function renderLine(line) {
     // ---------------- Log ID ----------------
     const params = new URLSearchParams(location.search);
     let logId = params.get("log");
+
+    let defaultLog = localStorage.getItem("defaultLog");
+
     if (!logId) {
 
-      let defaultLog = localStorage.getItem("defaultLog");
       if("null" != defaultLog  && null !== defaultLog) {
-        localStorage.setItem("defaultLog", logId);
+        logId = localStorage.getItem("defaultLog");
         window.location = `?log=${logId}`;
       } else {
         history.pushState({}, "", "?createNewLog=1");
