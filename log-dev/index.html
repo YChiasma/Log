@@ -553,7 +553,7 @@ function renderLine(line) {
         logId = localStorage.getItem("defaultLog");
         window.location = `?log=${logId}`;
       } else {
-        history.pushState({}, "", "?createNewLog=1");
+        window.location = "?createNewLog=1";
       }
     }
 
