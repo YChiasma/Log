@@ -547,9 +547,11 @@ function renderLine(line) {
 
     let defaultLog = localStorage.getItem("defaultLog");
 
+    let defaultLogSet = "null" != defaultLog  && null !== defaultLog;
+
     if (!logId) {
 
-      if("null" != defaultLog  && null !== defaultLog) {
+      if(defaultLogSet) {
         logId = localStorage.getItem("defaultLog");
         window.location = `?log=${logId}`;
       } else {
@@ -563,8 +565,9 @@ function renderLine(line) {
       window.location = `?log=${logId}`;
     }
 
-    if(null === localStorage.getItem("defaultLog")) {
+    if(!defaultLogSet) {
       localStorage.setItem("defaultLog", logId);
+      defaultLogSet = true;
     }
 
     const createNewLogButton = document.getElementById("createNewLog");
