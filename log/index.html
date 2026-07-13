@@ -544,16 +544,30 @@ function renderLine(line) {
     // ---------------- Log ID ----------------
     const params = new URLSearchParams(location.search);
     let logId = params.get("log");
+
+    let defaultLog = localStorage.getItem("defaultLog");
+
+    let defaultLogSet = "null" != defaultLog  && null !== defaultLog;
+
     if (!logId) {
-      // Show create new log link
-      document.getElementById("listPage").style.display = "unset";
-      document.getElementById("logPage").style.display = "none";
+
+      if(defaultLogSet) {
+        logId = localStorage.getItem("defaultLog");
+        window.location = `?log=${logId}`;
+      } else {
+        window.location = "?createNewLog=1";
+      }
     }
 
     let createNewLog = params.get("createNewLog");
     if(createNewLog) {
       logId = crypto.randomUUID();
       window.location = `?log=${logId}`;
+    }
+
+    if(!defaultLogSet) {
+      localStorage.setItem("defaultLog", logId);
+      defaultLogSet = true;
     }
 
     const createNewLogButton = document.getElementById("createNewLog");
