@@ -164,9 +164,6 @@
       cursor: pointer;
     }
 
-    #listPage {
-      display: none;
-    }
   </style>
 
 
@@ -174,24 +171,19 @@
 
 <body>
 
-  <div id="logPage">
-    <h1 id="h1">Shared Log</h1>
-    <p id="shareLink"></p>
+  <h1 id="h1">Shared Log</h1>
+  <p id="shareLink"></p>
   
-    <div class="button-container">
-      <button id="exportText">Export Text</button>
-      <button id="exportJson">Export JSON</button>
-      <button id="addCheckbox">☐ Checkbox</button>
-    </div>
-
-    <textarea id="entryText"></textarea>
-    <button id="addEntry">Add Entry</button>
-    <div id="entries"></div>
-  </div>
-
-  <div id="listPage">
+  <div class="button-container">
+    <button id="exportText">Export Text</button>
+    <button id="exportJson">Export JSON</button>
+    <button id="addCheckbox">☐ Checkbox</button>
     <button id="createNewLog">Create New Log</button>
   </div>
+
+  <textarea id="entryText"></textarea>
+  <button id="addEntry">Add Entry</button>
+  <div id="entries"></div>
 
   <script>
 
@@ -572,9 +564,13 @@ function renderLine(line) {
 
     const createNewLogButton = document.getElementById("createNewLog");
     createNewLogButton.addEventListener("click", () => {
+      // TODO: add entry with link to a new log 
+      // TODO: (maybe) then redirect to new log
+      /*
       document.getElementById("listPage").style.display = "none";
       document.getElementById("logPage").style.display = "unset";
       history.pushState({}, "", "?createNewLog=1");
+      */
     });
 
     document.getElementById("shareLink").textContent =
