@@ -616,7 +616,8 @@ function renderLine(line) {
       const name = await getPageName(logId);
       if (name) {
         textNode.textContent = name;
-        document.getElementsByTagName("title")[0].innerHTML = name;
+        // TODO: Test this for ...
+        document.getElementsByTagName("title")[0].textContent = name + " - Shared Log";
       }
     });
 
