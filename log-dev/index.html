@@ -614,7 +614,10 @@ function renderLine(line) {
 
     document.addEventListener("DOMContentLoaded", async () => {
       const name = await getPageName(logId);
-      if (name) textNode.textContent = name;
+      if (name) {
+        textNode.textContent = name;
+        document.getElementsByTagName("title")[0].innerHTML = name;
+      }
     });
 
     // ---------------- Add Entry ----------------
